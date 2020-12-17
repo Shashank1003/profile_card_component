@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-position: right 51vw bottom 15vh, left 47vw top 50vh;
+  background-repeat: no-repeat no-repeat;
+}
+
+.box {
+  width: 350px;
+  height: 380px;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 250px;
+  border-radius: 15px;
+}
+
+.pattern {
+  border-radius: 15px 15px 0 0;
+}
+
+.victor-img {
+  border-radius: 100%;
+  border-width: thick;
+  border-style: solid;
+  border-color: #fff;
+  position: relative;
+  bottom: 15%;
+}
+
+.content {
+  position: relative;
+  bottom: 10%;
+}
+
+.name {
+  line-height: 2;
+}
+
+.name h1 {
+  display: inline;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.name span {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.name p {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+hr {
+  color: hsl(227, 10%, 46%);
+}
+
+.row {
+  width: 350px;
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.light {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.5;
+  color: hsl(227, 10%, 46%);
+}
+
+.no-1 {
+  position: relative;
+  left: 5%;
+  top: 5px;
+}
+
+.no-2 {
+  position: relative;
+  top: 5px;
+}
+
+.no-3 {
+  position: relative;
+  right: 5%;
+  top: 5px;
+}
+
+.attribution {
+  /* position: absolute; */
+  /* bottom: 250px; */
+  /* left: 775px; */
+  margin: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+    background-position: right 51vw bottom 15vh, left 47vw top 52vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-position: right 20vw bottom 35vh, left 35vw top 47vh;
+  }
+}
